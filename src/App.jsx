@@ -20,20 +20,15 @@ export function App() {
           stats={user.stats}
         />
       </Section>
-
       <Section title={"Task-2 'Statistics section'"}>
         <Statistics title="Statics" stats={data} />
       </Section>
-
       <Section title={"Task-3 'Friend list'"}>
         <FriendList friends={friends} />
       </Section>
-
       <Section title={"Task-3 'Transactions'"}>
         <TransactionHistory transactions={transactions} />
       </Section>
-
-
     </div> 
     );
 }
